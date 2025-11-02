@@ -10,10 +10,11 @@ Der Entwickler von Eversicht hat **zu keinem Zeitpunkt Zugriff** auf Ihre privat
 
 ## 2. Erfassung, Speicherung und Nutzung Ihrer Daten
 
-### 2.1 Lokale Speicherung und iCloud (CloudKit) Sync
+### 2.1 Datenspeicherung: Lokal (Standard) und Optional iCloud
 
-* Alle Ihre Verträge, Garantien, Historien, Dokumente und Kategorien werden primär **lokal auf Ihrem Gerät** gespeichert.
-* Für die Datensicherung und geräteübergreifende Synchronisierung werden Ihre Daten in Ihrem **privaten iCloud-Konto (CloudKit)** gespeichert.
+* Alle Ihre Verträge, Garantien, Historien, Dokumente und Kategorien werden standardmässig **ausschliesslich lokal auf Ihrem Gerät** gespeichert.
+* Sie haben die **optionale** Möglichkeit, die iCloud-Synchronisierung in den Einstellungen der App zu aktivieren.
+* Wenn Sie die Synchronisierung aktivieren, werden Ihre Daten zusätzlich in Ihrem **privaten iCloud-Konto (CloudKit)** gespeichert, um eine Sicherung (Backup) und Synchronisierung auf all Ihren Geräten zu ermöglichen.
 * Diese Speicherung ist durch Ihre **Apple ID** geschützt und verschlüsselt. Nur Sie selbst haben Zugriff auf diese Daten.
 
 ### 2.2 Verarbeitete Daten und Zwecke
@@ -23,7 +24,7 @@ Die App verarbeitet die folgenden von Ihnen eingegebenen Daten ausschliesslich z
 | Datenkategorie | Zweck der Verarbeitung |
 | :--- | :--- |
 | **Vertrags- & Garantiedetails** | Fristenberechnung, Kostenanalyse, Organisation und Filterung. |
-| **Dokumente/Belege** | Archivierung und Erleichterung der Dateneingabe (lokale OCR). |
+| **Dokumente/Belege** | Lokale Archivierung (und optional in iCloud) sowie Erleichterung der Dateneingabe (lokale OCR). |
 | **Persönliche Adressdaten** | Automatische Vorbereitung des Absenderblocks von Kündigungsschreiben und allgemeinen Briefen. |
 | **Nutzungsdaten (anonym)** | *Es werden keine externen Analyse- oder Tracking-Tools verwendet.* Wir erfassen nur grundlegende Absturzberichte über Apple Crashlytics, um die App-Stabilität zu gewährleisten. |
 
@@ -38,7 +39,7 @@ Die App nutzt die Apple-Frameworks **Vision** und **NaturalLanguage** zur Texter
 
 * **Mitteilungen:** Wird für das Senden von lokalen Erinnerungen an Fristen und Garantieabläufe benötigt.
 * **Kamera/Fotos:** Wird nur verwendet, wenn Sie Dokumente scannen oder aus Ihrer Mediathek importieren.
-* **iCloud/CloudKit:** Erforderlich für die Datenspeicherung und geräteübergreifende Synchronisierung.
+* **iCloud/CloudKit:** Wird **optional** für die Datensicherung und geräteübergreifende Synchronisierung verwendet, **falls Sie diese Funktion aktivieren.**
 * **App Store (StoreKit):** Dient zur Verwaltung Ihres Eversicht+ Abonnements.
 
 ## 4. Ihre Rechte nach Schweizer Datenschutzgesetz (DSG)
@@ -46,7 +47,7 @@ Die App nutzt die Apple-Frameworks **Vision** und **NaturalLanguage** zur Texter
 Da Sie die alleinige Kontrolle über Ihre Daten (lokal und in Ihrer iCloud) haben, können Sie alle Rechte (Auskunft, Berichtigung, Löschung) jederzeit direkt in der App ausüben:
 
 * **Auskunfts- und Berichtigungsrecht:** Durch Einsehen und Bearbeiten Ihrer Daten in den Detailansichten.
-* **Löschungsrecht:** Die Funktion **"Alle Daten zurücksetzen"** in den Einstellungen löscht unwiderruflich alle Inhalte lokal und aus Ihrer privaten CloudKit-Datenbank.
+* **Löschungsrecht:** Die Funktion **"Alle Daten zurücksetzen"** in den Einstellungen löscht unwiderruflich alle Inhalte lokal und, **falls die Synchronisierung aktiviert war,** auch aus Ihrer privaten CloudKit-Datenbank.
 
 ---
 
